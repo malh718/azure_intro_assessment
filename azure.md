@@ -37,4 +37,20 @@ In the quickstart portion  on the Microsoft website, Flask or Django were exampl
 
 For Azure functions the way that this relates to python is that the the code of choice is dependent on the user which allows for flexibility and ease of use. The code is up to the user and you would create code for your functions using Python which will then be deployed to the cloud in Azure. Visual Studion Code can be used to leverage this service and once the python extension is installed it can then be used to create Python functions. 
 
-## 
+## Database Services
+
+### Identify & List services
+The two categories are Azure Cache for Redis documentation and Azure SQL documentation. 
+
+### Service Description 
+Azure SQL database is a platform as a service and and include functions that set out to manage the database. This includes upgrading, backing up information and monitoring things without prompt. 
+
+Azure Cache for Redis documentation refers to a data cache that is safe and secure on Redis software. It is an in memory data storage that processes many requests by the application and for application that have large back end data storage it can help with that bettering performance and with scaling. 
+
+### Python Interaction
+Azure Cache for Redis can be integrated into a Python application. This is important because it allows access to a cache in Azure from numerous applications. A python interface known as Redis-py would need to be installed which will allow you to test the cache. 
+
+In the instance of the Azure SQL database, it is possibe to use Python to connect to the database. Python can be used to connect and query from applications. There are things called python SQL drivers such as pyodbc or pymssql to configure envirornments for development. 
+
+
+
