@@ -1,6 +1,26 @@
 # azure_intro_assessment
 This is assignment 1.
 
+## Storage 
+
+### Identify and List Services 
+Two categories are Azure Blob Storage and Azure confidential ledger. 
+
+### Service Description 
+Azure Blob Storage is a storage solution that Microsoft created for the cloud. Unstructured data can be stored in large amount in this type of storage and it can hold things such as images and documents from browser, store files and data and much more. This is interesting because it is not limited to just words or binary data.
+
+Azure confidential ledgers refers to a service that allows for the secure management of sensitive data records as mentioned by Azure. This is interesting because it is so secure and private not even Microsoft can override it. It is a heavily monitored and guarded service and can be installed in python
+
+### Python Interaction
+
+Interacting with this service using Python for Azure Blob Service can be done using client libaries which can also be done in other languages such as  Java and Go. Clients can access objects from this type of storage via HTTP/HTTPS from any location. 
+
+In order for Azure confidential Ledgers  to be installed in Python. Ine way  to succesfully undertake this process would be to open up a Python virtual network and install the different pip code that the Azure website directs. For example these inclydes the Active directory identity client library, the confidential ledger control plane client library and the ledger data plan client library. 
+
+
+
+
+
 ## Compute
 
 ### Identify & List services
@@ -11,8 +31,10 @@ App service, as described on the Microsoft website, lets you make  and launch yo
 
 Azure Functions is a cloud infrastructure that allows a person who is writing code to connect to specific functions and keep their applications going. It can save time as well as money and Azure Functions can help to build web APIs and much more. 
 
-###Python Interaction
+### Python Interaction
 For Azure App Service, any language you want can be used to to create and build your web apps, mobile back ends, and restfulAPIs. Python would be the language of interest here when building things in this sitation;
 In the quickstart portion  on the Microsoft website, Flask or Django were examples are how Python can be used. Those are both python web applications, and App Service uses a Linux server envirornment that hosts the Python applications. 
 
 For Azure functions the way that this relates to python is that the the code of choice is dependent on the user which allows for flexibility and ease of use. The code is up to the user and you would create code for your functions using Python which will then be deployed to the cloud in Azure. Visual Studion Code can be used to leverage this service and once the python extension is installed it can then be used to create Python functions. 
+
+## 
